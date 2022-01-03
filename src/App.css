@@ -1,0 +1,38 @@
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 4rem auto;
+    background: rgb(26, 23, 15);
+  }
+  
+  .user-details {
+    align-items: center;
+    width: 70%;
+    height: 100%;
+    margin: 5rem 10rem;
+    
+  }
+  .myInput{
+    margin: 2rem;
+  }
+
+  .Input{
+    color: rgb(121, 113, 113);
+    width: 500px;
+    height: 40px;
+    padding-left: 20px;
+  }
+
+  .button{
+    width: 120px;
+    height: 50px;
+    background: red;
+  }
+  
+  .App{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
